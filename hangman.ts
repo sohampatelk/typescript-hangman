@@ -31,7 +31,7 @@ while(chances>0 && remainingLetters>0){
     alert(`Now you have a ${chances} chances. And your Hint is : ${hint}`);
     //get a guess from player
     var guess : string = prompt("Guess a letter or click cancel to stop playing :");
-    var chance1=0;//randome variable to prevent increment more than one.
+    var chance1 : number = 0;//randome variable to prevent increment more than one.
 
     for(var j=0 ; j<word.length ; j++){
         if(word[j] === guess){
