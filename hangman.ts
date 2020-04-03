@@ -1,4 +1,5 @@
 //Type Script hangman file
+//Note: not sure all syntax is same for prompt function in typescript and javascript are same or note.
 
 var word : string = prompt("What word you would like to give user for Hangman game:");
 var hint : string = prompt("What kind of hint you want to give user : ");
